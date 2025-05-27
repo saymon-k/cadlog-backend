@@ -14,3 +14,5 @@ username varchar(255)
 birth_date varchar(255)
 cep varchar(255)
 );
+
+não esqueça do user (root) e password em application.properties
