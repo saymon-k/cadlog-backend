@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS authsystem;
+
+USE authsystem;
+
+CREATE TABLE IF NOT EXISTS user;
+
+ALTER TABLE user;
+
+ADD (
+id bigint
+email varchar(255)
+password varchar(255)
+username varchar(255)
+birth_date varchar(255)
+cep varchar(255)
+);
